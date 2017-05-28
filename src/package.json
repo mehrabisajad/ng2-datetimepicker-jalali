@@ -1,0 +1,30 @@
+{
+  "name": "ng2-datetimepicker-jalali",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mehrabisajad/ng2-datetimepicker-jalali.git"
+  },
+  "author": {
+    "name": "Sajad Mehrabi",
+    "email": "mehrabisajad@outlook.com"
+  },
+  "keywords": [
+    "angular", "angular 2", "date", "time", "jalali", "datetimepicker", "datepicker"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mehrabisajad/ng2-datetimepicker-jalali.git/issues"
+  },
+  "module": "ng2-datetimepicker-jalali.js",
+  "typings": "ng2-datetimepicker-jalali.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "@angular/forms": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4",
+    "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.22",
+    "bootstrap": "^4.0.0-alpha.6",
+    "ng2-datepicker-jalali": "^1.0.9"
+  }
+}

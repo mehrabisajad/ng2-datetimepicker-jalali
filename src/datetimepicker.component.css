@@ -1,0 +1,48 @@
+.time {
+  direction: ltr;
+  align-self: center;
+}
+
+.date {
+  align-self: center;
+}
+
+.time .form-control {
+  width: 100%;
+}
+
+app-datetimepicker.form-control {
+  padding: 0;
+}
+
+.datetime {
+  padding: 0;
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  margin: .125rem 0 0;
+  font-size: 1rem;
+  color: #292b2c;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: .25rem;
+}
+
+.datetime.rtl .ngb-dp-navigation-chevron::before {
+  transform: rotate(45deg) !important;
+  -webkit-transform: rotate(45deg) !important;
+  -ms-transform: rotate(45deg) !important;
+  margin: 0 0.5rem 0 0 !important;
+}
+
+.datetime.rtl .ngb-dp-navigation-chevron.right:before {
+  -webkit-transform: rotate(225deg) !important;
+  -ms-transform: rotate(225deg) !important;
+  transform: rotate(225deg) !important;
+  margin: 0 0 0 0.5rem !important;
+}
