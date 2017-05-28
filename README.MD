@@ -1,4 +1,8 @@
 # ng2-datetimepicker-jalali
+persian date time picker, jalali for angular 2
+
+تقویم فارسی برای انگولار 2 نمایش تارخ و ساعت
+
 
 ## Demo
 coming soon
