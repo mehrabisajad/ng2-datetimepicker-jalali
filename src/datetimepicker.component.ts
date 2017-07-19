@@ -32,7 +32,7 @@ export const CUSTOM_INPUT_CONTROL_VALIDATOR: any = {
 
 
 @Component({
-    selector: 'ngs-datetimepicker',
+    selector: 'ng2-datetimepicker',
     templateUrl: './datetimepicker.component.html',
     styleUrls: ['./datetimepicker.component.css'],
     providers: [
@@ -49,6 +49,7 @@ export class DatetimepickerComponent implements OnInit, OnChanges, ControlValueA
     @Input('disableTime') disableTime = false;
     @Input() maxDateTime;
     @Input() minDateTime;
+    @Input() displayMonths = 1;
 
     @Input() disabled: boolean;
 

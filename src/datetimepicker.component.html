@@ -18,7 +18,7 @@
     </a>
   </div>
   <div [style.visibility]="!overlayVisible ? 'hidden' : 'visible'"  class="d-inline-block rounded datetime" [ngClass]="{rtl: dir === 'rtl'}" style="padding: 0;">
-    <ngb-datepicker #dp (click)="_panelClick = true" [(ngModel)]="_date" (ngModelChange)="changedDate()" [maxDate]="maxDate()" [minDate]="minDate()"
+    <ngb-datepicker #dp (click)="_panelClick = true" [(ngModel)]="_date"  [displayMonths]="displayMonths" (ngModelChange)="changedDate()" [maxDate]="maxDate()" [minDate]="minDate()"
                     [firstDayOfWeek]="6"></ngb-datepicker>
     <div *ngIf="!disableTime" [class.has-danger]="!getValidTime()"
          class="time d-block d-flex justify-content-center" style="display: flex;"
